@@ -1,0 +1,30 @@
+.app-header {
+  padding: 30px;
+  background: #eee;
+}
+
+.page-wrapper {
+  width: 100%;
+  display: block;
+  position: relative;
+  flex-direction: row; 
+}
+
+.page-left-wrapper,
+.page-right-wrapper { 
+  padding: 30px;
+  width: 100%;
+}
+
+.page-left-wrapper {
+  flex-basis: 20%; 
+  text-align: center;
+  justify-content: center;
+  align-items: end;
+  display: inline-flex;
+  height: 50vh;
+}
+
+.page-right-wrapper { 
+  flex-basis: 80%;
+}
