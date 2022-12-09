@@ -7,6 +7,7 @@ import Teleoperation from './comopnents/Teleoperation';
 import Config from './Config';
  
 import React, { Component } from 'react'
+import Map from './comopnents/Map';
 
 export default class App extends Component {
 
@@ -60,6 +61,7 @@ export default class App extends Component {
         <div className='page-wrapper'> 
           <div className='page-right-wrapper'> 
           <RobotState ros={this.state.ros}></RobotState>
+          <Map ros={this.state.ros}></Map>
         </div> 
           <div className='page-left-wrapper'> 
             <Teleoperation ros={this.state.ros}></Teleoperation>
