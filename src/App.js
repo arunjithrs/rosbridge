@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header> 
-      <Connection></Connection>
+      {/* <Connection></Connection> */}
       <div className='page-wrapper'> 
         <div className='page-right-wrapper'>asd</div> 
         <div className='page-left-wrapper'> 

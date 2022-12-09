@@ -1,0 +1,5 @@
+export default {
+    ROSBRIDGE_SERVER_HOST: "0.0.0.0", 
+    ROSBRIDGE_SERVER_PORT: "9090",
+    RETRY_SECONDS: 3000,
+}
