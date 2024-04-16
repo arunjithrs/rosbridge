@@ -55,6 +55,11 @@ then run the below command
 rosrun riotu_robot_pose_publisher riotu_robot_pose_publisher
 ```
 
+for enabling navigation
+```
+sudo apt-get install ros-kinetic-dwa-local-planner
+```
+
 ### running commands
 
 ```
