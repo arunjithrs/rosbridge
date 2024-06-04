@@ -64,9 +64,9 @@ sudo apt-get install ros-kinetic-dwa-local-planner
 
 ```
 roslaunch rosbridge_server rosbridge_websocket.launch
-roslaunch turtlebot3_navigation  turtlebot3_navigation.launch map_file:=/home/innovationlabs/Documents/map/tb3_house_map.yaml
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 rosrun riotu_robot_pose_publisher riotu_robot_pose_publisher
+roslaunch turtlebot3_navigation  turtlebot3_navigation.launch map_file:=/home/innovationlabs/Documents/map/tb3_house_map.yaml
 ```
 
 ### start webapp
